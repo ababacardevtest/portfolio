@@ -23,7 +23,7 @@ export default async function PageProjet({ params }: Props) {
     return (
         <article className="mx-auto max-w-3xl px-4 py-16">
         <Link href="/projets" className="text-sm text-brand-600 hover:underline">← Retour aux projets</Link>
-            <div className="mt-6 h-56 rounded-xl bg-linear-to-br from-brand-500 to-brand-700">
+            <div className="mt-6 m-0 p-2 h-80 rounded-xl bg-linear-to-br from-brand-500 to-brand-700">
                 <span className="mt-6 block text-sm font-semibold uppercase tracking-wide text-brand-600">{projet.categorie}</span>
                 <h1 className="mt-1 text-4xl font-bold tracking-tight">{projet.titre}</h1>
                 <p className="mt-5 text-lg leading-relaxed text-slate-700">
