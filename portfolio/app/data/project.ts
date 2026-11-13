@@ -14,7 +14,7 @@ export const categories:string[] = [
     "E-commerce"
 ] as const;
 
-export const projects:Project[] = [
+export const projets:Projet[] = [
     {
         slug: "restaurant-teranga",
         titre: "Restaurant Teranga",
