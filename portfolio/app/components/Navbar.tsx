@@ -16,7 +16,7 @@ export default function Navbar(){
         <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
                 <Link href="/" className="text-lg font-bold text-brand-700">
-                Khalifa-Ababacar<span className="text-slate-900">.dev</span>
+                K.A-DIADHIOU<span className="text-slate-900">.dev</span>
                 </Link>
                 <nav className="hidden gap-8 md:flex">
                     {liens.map((l) => (

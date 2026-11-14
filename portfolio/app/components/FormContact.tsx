@@ -13,7 +13,8 @@ export default function FormContact() {
     function soumettre(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
         if (form.message.trim().length < 10) {
-            setErreur("Le message doit contenir au moins 10 caractères.");            return;
+            setErreur("Le message doit contenir au moins 10 caractères.");            
+            return;
         }
         setErreur("");
         setEnvoye(true);
